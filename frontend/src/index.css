@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 80px;
+  }
+  body {
+    @apply bg-[#050a15] text-textLight font-sans overflow-x-hidden animate-page-fade;
+    background: linear-gradient(to bottom, #050a15, #000000);
+    background-attachment: fixed;
+  }
+}
+
+@layer utilities {
+  .text-gradient {
+    @apply bg-clip-text text-transparent bg-gradient-to-br from-accentBlue to-accentPurple;
+  }
+  .glass-card {
+    @apply bg-white/5 backdrop-blur-md rounded-2xl border border-white/10 shadow-[0_8px_32px_rgba(0,0,0,0.3)] transition-all duration-300;
+  }
+  .glass-card:hover {
+    @apply -translate-y-1.5 shadow-[0_12px_40px_rgba(139,92,246,0.15),0_8px_32px_rgba(0,0,0,0.4)] border-white/20;
+  }
+  .btn-primary {
+    @apply text-white font-semibold rounded-full px-8 py-3 bg-[linear-gradient(135deg,var(--tw-gradient-stops))] from-accentBlue via-accentPurple to-accentBlue bg-[length:200%_auto] transition-all duration-500 shadow-[0_4px_15px_rgba(59,130,246,0.4)];
+  }
+  .btn-primary:hover {
+    @apply bg-right scale-105 shadow-[0_8px_25px_rgba(139,92,246,0.5)];
+  }
+  .btn-secondary {
+    @apply text-textLight font-semibold rounded-full px-8 py-3 border border-white/10 transition-all duration-500 bg-[linear-gradient(135deg,transparent,rgba(255,255,255,0.05),transparent)] bg-[length:200%_auto];
+  }
+  .btn-secondary:hover {
+    @apply bg-right scale-105 border-accentPurple shadow-[0_8px_24px_rgba(139,92,246,0.15)];
+  }
+}
