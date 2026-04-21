@@ -11,7 +11,12 @@ Welcome to my Final Portfolio Project! This is a full-stack web application deve
   - React Icons
 
 - **Backend:**
-  - (Specify backend technologies used, e.g., Node.js, Express, etc.)
+  - Java
+  - Spring-boot
+  - Maven
+
+- **Data Base:**
+  - PostgreSQL
 
 - **DevOps:**
   - Docker
