@@ -81,4 +81,4 @@ This project is a testament to my ability to create responsive and interactive w
 
 ## Contact
 - **GitHub:** [FLASH892-ui](https://github.com/FLASH892-ui)
-- **Email:** (Your email address)
+- **Email:** maityavinandan079@gmail.com
