@@ -2,9 +2,6 @@
 
 Welcome to my Final Portfolio Project! This is a full-stack web application developed using a modern tech stack, designed to showcase my skills and capabilities as a web developer.
 
-## Tech Stack
-🛠️ Tech Stack
-
 ## 🛠️ Tech Stack
 
 ### 🎨 Frontend
